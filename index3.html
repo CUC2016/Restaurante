@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Comidas Rapidas</title>
+  <title>Restaurante</title>
 
   <!--Mapa-->
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
@@ -36,30 +36,36 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <style type="text/css">
     #d{
-      color: #ffab00;
+      color: #1DA7AB;
     }
   </style>
 </head>
 <body>
-  <nav>
-      <div class="nav-wrapper indigo lighten-4">
-        <a href="#" class="brand-logo center"><img src="img/rapida.jpg" alt="logo" />RapiComidas</a>
-        <ul id="nav-mobile" class="left hide-on-med-and-down">
-          <li><a href="hpneo-gmaps-4a1d0b2/examples/markers.html">Informacion del restaurante</a></li>
-          <li><a href="#">Se puede borrar</a></li>
-          <li><a href="#">AJa</a></li>
-        </ul>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center amber-text text-accent-4" style="color: #1D62AB">La panatta</h1>
+        <div class="row center">
+          <h5 id="d"><b>Pizzas artesanales</b></h5>
+        </div>
+        <br><br>
+
       </div>
-  </nav>
-
-  <div class="carousel">
-      <a class="carousel-item " ><img src="img/hamburguesa.jpg"></a>
-      <a class="carousel-item " ><img src="img/pizza.jpg"></a>
-      <a class="carousel-item " ><img src="img/salchi.jpg"></a>
-      <a class="carousel-item " ><img src="img/desgranado.jpg"></a>
     </div>
+    <div class="parallax"><img src="img/panata.jpeg" alt="Unsplashed background img 1"></div>
+  </div>
 
-    <ul class="collapsible" data-collapsible="accordion">
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+
+  <ul class="collapsible" data-collapsible="accordion">
       <li>
         <div class="collapsible-header"><img src="icons/hamburger.png" />Hamburguesas</div>
         <div class="collapsible-body">
@@ -227,5 +233,4 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-</body>
 </html>
