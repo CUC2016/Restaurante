@@ -55,3 +55,8 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+.imglarge{
+  max-height: 320px;
+  max-width: 630px;
+}

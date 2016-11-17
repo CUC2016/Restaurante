@@ -11,20 +11,33 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <style type="text/css">
     #d{
-      color: #2FBAB1;
+      color: #ffab00;
     }
   </style>
 </head>
 <body>
+
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="index2.html">index1</a></li>
+    <li><a href="#!">index2</a></li>
+    <li><a href="#!">index3</a></li>
+  </ul>
+
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="index2.html">index1</a></li>
+    <li><a href="#!">index2</a></li>
+    <li><a href="#!">index3</a></li>
+  </ul>
+
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img src="img/logo.png" alt="logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Menu</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Ideas<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
-
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Ideas<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -34,7 +47,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <br><br>
-        <h1 class="header center teal-text text-lighten-2">Menús en linea</h1>
+        <h1 class="header center amber-text text-accent-4">Menús en linea</h1>
         <div class="row center">
           <h5 id="d"><b>Distintos restaurantes, para que escojas el que mas se te antoje</b></h5>
         </div>
@@ -57,27 +70,27 @@
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
+            <h5 class="center">Rapidez en la atencion</h5>
 
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+            <p class="light">Su pedido se empieza a preparar en el instante en que los pide, evitando largas esperas.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
+            <h5 class="center">Calidad en el servicio</h5>
 
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+            <p class="light">El servicio de los meseros se ve mejorado, ya no hay error humano con los pedidos y esto se ve reflejado la alegria de los clientes.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
+            <h5 class="center">Todo sistematizado</h5>
 
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Tenemos en cuenta todas los procesos del negocio,, pedidos, cuentas, cantidad de clientes entre otros.</p>
           </div>
         </div>
       </div>
@@ -90,7 +103,7 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Puedes ver los distintos platos de cada restaurante</h5>
+          <!--<h5 class="header col s12 light"><b>Puedes ver los distintos platos de cada restaurante</b></h5><!-->
         </div>
       </div>
     </div>
@@ -116,34 +129,26 @@
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 id="d" class="header col s12 light">Los usuarios podran ver la ubicacion de tu resptaurante</h5>
+          <!--<h5 class="header col s12 indigo-text"><b>Soluciones tecnologicas para restaurantes</b></h5><!-->
         </div>
       </div>
     </div>
-    <div class="parallax"><img src="img/mapa.jpg" alt="Unsplashed background img 3"></div>
+    <div class="parallax"><img src="img/restaurant.jpg" alt="Unsplashed background img 3"></div>
   </div>
 
-  <footer class="page-footer teal">
+  <footer class="page-footer orange darken-4">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">CUC</h5>
-          <p class="grey-text text-lighten-4">Somos estudiantes de la univerdad de la costa- CUC, del departamento de ingenieria de sistemas de cuarto semestre. </p>
+          <h5 class="white-text">Desarrollado Por Universidad de la Costa CUC</h5>
+          <p class="grey-text text-lighten-4">Somos estudiantes del departamento de ingenieria de sistemas de la universidad, interesados en el desarrollo web. </p>
 
 
         </div>
         <div class="col l3 s12">
           <a href="https://www.cuc.edu.co/"><img src="img/cuc.jpg"></a>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
+
       </div>
     </div>
     <div class="footer-copyright">
